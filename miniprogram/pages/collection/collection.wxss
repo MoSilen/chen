@@ -1,0 +1,8 @@
+.body {
+    padding-bottom: 200rpx;
+}
+
+.lose {
+    display: flex;
+    flex-direction:column;
+}

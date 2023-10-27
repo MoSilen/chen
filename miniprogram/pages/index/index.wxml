@@ -1,0 +1,68 @@
+<view class="body" wx:if="{{ login }}">
+    <view class="headBg">
+        <view class="title">
+    <swiper class="banner" indicator-dots="true" autoplay="true" interval="2000" duration="500" circular='true' >
+        <block wx:for="{{background}}" wx:key="*this">
+            <swiper-item>
+                <image class="banner-image" src="{{ item }}"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+    </view>
+</view>
+
+    <SearchInput bindtap="toSearch"  />
+
+
+    <view class="function">
+  <view class="release">
+    <!--发布-->
+    <view class="list">
+      <view class="img" bindtap="navigator">
+        <image src="../../images/release.png"></image>
+      </view>
+      <navigator url="../publish/publish"><view class="button">
+        +发布
+      </view></navigator>
+    </view>
+    <view class="font">
+      失物招领
+    </view>
+  </view>
+
+  <view class="release">
+    <!--寻找-->
+    <view class="list">
+      <view class="img" bindtap="navigator">
+        <image src="../../images/search.png"></image>
+      </view>
+      <navigator url="../publish/publish"><view class="button">
+        +发布
+      </view></navigator>
+    </view>
+    <view class="font">
+      寻物寻事
+    </view>
+  </view>
+</view>
+
+    <view class="ts" style="font-size: 24rpx;color: rgb(175, 175, 175);margin-left: 55rpx;margin-top: 30rpx;">tps:听说点击小飞机和放大镜，会进入神秘世界...</view>
+
+    <view class="announcement-title">
+  <view class="img">
+    <image src="../../images/announcement.png"></image>
+  </view>
+  <view class="font">最新发布</view>
+</view>
+
+<view class="announcement-center">
+    <Tab tabList="{{ tabList }}" bindgettab="getTab"  />
+
+    <view class="lose">
+        <ViewCard wx:for="{{ list }}" wx:key="index" data="{{ item }}" bindtap="toDetail" data-item="{{ item }}"  />
+    </view>
+</view>
+</view>
+<view wx:else>
+    请去个人中心登录!
+</view>

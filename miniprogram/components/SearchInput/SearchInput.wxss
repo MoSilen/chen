@@ -1,0 +1,30 @@
+.search {
+    display: flex;
+    width: 90%;
+    background-color: #fff;
+    height: 80rpx;
+    margin: 0 auto;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    border-radius: 60rpx;
+}
+.search-content{
+    display: flex;
+}
+
+.img {
+    margin-top: 17rpx;
+    margin-left: 27rpx;
+}
+
+.img image{
+    width: 50rpx;
+    height: 50rpx;
+}
+
+.search-text{
+  margin-top: 20rpx;
+  margin-left: 27rpx;
+  color: #b6b6b6;
+  font-size: 30rpx;
+}

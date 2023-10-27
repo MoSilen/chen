@@ -1,0 +1,102 @@
+.headBg{
+    background-color: #ffd23c;
+    height: 400rpx;
+    border-bottom-right-radius: 80rpx;
+    border-bottom-left-radius: 80rpx;
+  }
+  .headBg .content{
+    background-color: #fff;
+    width: 90%;
+    height: 250rpx;
+    margin: 50rpx auto;
+    border-radius: 60rpx;
+  }
+  .title {
+    width: 100%;
+    height: 300rpx;
+  }
+.banner {
+    box-shadow: 4rpx 4rpx 8rpx rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    height: 400rpx;
+    width: 700rpx;
+    margin-top: 0rpx;
+    border-radius: 20rpx;
+    overflow: hidden;
+}
+
+.banner-image {
+    height: 100%;
+}
+
+
+/* 发布和寻找 */
+.function{
+    margin-top: 50rpx;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .function .release{
+    width: 300rpx;
+    height: 260rpx;
+    background-color: #fff;
+    border-radius: 30rpx;
+  }
+  .function .img image{
+    width: 80rpx;
+    height: 80rpx;
+    margin: 30rpx;
+  }
+  .function .font{
+    margin-left: 30rpx;
+    margin-top: 20rpx;
+  }
+  .function .list{
+    display: flex;
+  }
+  .function .list .button{
+    background-color: #ffd23c;
+    width: 140rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    text-align: center;
+    border-radius: 30rpx;
+    margin-top: 25rpx;
+  }
+  
+  .announcement-title{
+    display: flex;
+  }
+  .announcement-title .font{
+    margin-top: 66rpx;
+    margin-left: 20rpx;
+    font-size: 35rpx;
+    font-weight: bold;
+  }
+  .announcement-title .img{
+    margin-left: 70rpx;
+    margin-top: 50rpx;  
+  }
+  .announcement-title .img image{
+    width: 80rpx;
+    height: 80rpx;
+  }
+
+
+.announcement-center{
+  margin: 0 auto;
+  width: 80%;
+  background-color: #fff;
+  padding: 20rpx;
+  border-radius: 50rpx;
+}
+.lose {
+    display: flex;
+    flex-direction:column;
+}
+
+
+.body {
+    padding-bottom: 200rpx;
+}
